@@ -1,0 +1,2976 @@
+{
+  "meta": {
+    "title": "FORUM D 2012 – strukturierte Wissensbasis",
+    "version": "1.0",
+    "language": "de",
+    "description": "Strukturierte Regelsammlung für FORUM D 2012. Die Wissensbasis dient als Grundlage für regelgebundene Reizungsanalysen.",
+    "source_policy": "Nur ausdrücklich dokumentierte FORUM-D-Regeln dürfen als Systemregeln behandelt werden. Allgemeines Bridge-Wissen darf fehlende Regeln nicht ersetzen."
+  },
+  "source": {
+    "title": "FORUM D 2012 Kurzbeschreibung",
+    "author": "Karl-Heinz Kaiser",
+    "collaboration": "Ausbildungsausschuss",
+    "url": "https://bridge-kl.de/data/documents/FD2012kurz.pdf",
+    "page_count": 13,
+    "source_type": "Kurzbeschreibung",
+    "limitations": "Die Quelle enthält nicht notwendigerweise alle denkbaren Reizungsfortsetzungen und Detailregeln."
+  },
+  "status_definitions": {
+    "belegt": "Die Regel ist ausdrücklich in der Quelle dokumentiert.",
+    "abgeglichen": "Die strukturierte Übertragung wurde anhand der Quelle geprüft.",
+    "vorläufig": "Die Regel ist aus der Quelle erkennbar, aber die genaue Zuordnung oder Formulierung ist noch nicht abschließend geprüft.",
+    "offen": "Die Quelle liefert keine ausreichende Grundlage für eine eindeutige Regel."
+  },
+  "sections": [
+     {
+      "section_id": "FD2012-01",
+      "source_section": "1",
+      "title": "Eröffnungen",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-01-001",
+          "topic": "Farberöffnung UF",
+          "sequence": ["1♣"],
+          "meaning": "Eröffnung mit mindestens 3er-Kreuz.",
+          "conditions": ["13–23 FL; auch 12 F sind möglich."],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-002",
+          "topic": "Farberöffnung UF",
+          "sequence": ["1♦"],
+          "meaning": "Eröffnung mit mindestens 4er-Karo.",
+          "conditions": [
+            "13–23 FL; auch 12 F sind möglich.",
+            "3er-Karo ausschließlich bei exakt 4-4-3-2."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-003",
+          "topic": "Farberöffnung OF",
+          "sequence": ["1♥"],
+          "meaning": "Eröffnung mit mindestens 5er-Cœur.",
+          "conditions": ["13–23 FL; auch 12 F sind möglich."],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-004",
+          "topic": "Farberöffnung OF",
+          "sequence": ["1♠"],
+          "meaning": "Eröffnung mit mindestens 5er-Pik.",
+          "conditions": ["13–23 FL; auch 12 F sind möglich."],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-005",
+          "topic": "SA-Eröffnung",
+          "sequence": ["1SA"],
+          "meaning": "Sans-Atout-Eröffnung.",
+          "conditions": [
+            "15–17 FL",
+            "Gleichmäßige Verteilung",
+            "Keine 5er-Oberfarbe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-006",
+          "topic": "Farberöffnung Auswahl",
+          "sequence": ["Eröffnungsfarbe auf Einerstufe"],
+          "meaning": "Auswahl der Eröffnungsfarbe nach Länge und Rang.",
+          "conditions": [
+            "Die längste Farbe eröffnen; Oberfarbe ab 5er-Länge.",
+            "Bei zwei Fünferfarben immer die höhere Farbe eröffnen.",
+            "Bei 4-4 in Unterfarben 1♦ eröffnen.",
+            "Bei 3-3 in Unterfarben 1♣ eröffnen."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-007",
+          "topic": "Farberöffnung stark",
+          "sequence": ["20–23 FL", "Einerstufen-Eröffnung"],
+          "meaning": "Hände mit 20–23 FL werden nur dann auf Einerstufe eröffnet, wenn sie nicht zu den mit 2♣ eröffneten Blatttypen gehören.",
+          "conditions": [
+            "Dreifärber; Ausnahme: sehr gute 5er-Oberfarbe mit 22–23 FL.",
+            "Zweifärber; Ausnahmen: 5-5 mit zwei sehr guten Oberfarben sowie sehr gute 5er-Oberfarbe mit 4er-Unterfarbe und 22–23 FL.",
+            "Oberfarb-Einfärber mit weniger als guter Farbqualität.",
+            "Unterfarb-Einfärber mit höchstens 6er-Länge oder weniger als guter Farbqualität.",
+            "Gleichmäßige Verteilung mit 5er-Oberfarbe und 20–21 FL."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-008",
+          "topic": "Farberöffnung stark",
+          "sequence": ["2♣"],
+          "meaning": "Spezielle Semiforcing-Eröffnung mit gleichmäßiger Verteilung.",
+          "conditions": [
+            "22–23 FL",
+            "Gleichmäßige Verteilung",
+            "Keine sehr gute 5er-Oberfarbe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-009",
+          "topic": "Farberöffnung stark",
+          "sequence": ["2♣"],
+          "meaning": "Spezielle Semiforcing-Eröffnung mit gutem Oberfarb-Einfärber.",
+          "conditions": [
+            "20–23 FL oder 8–8,5 Spielstiche",
+            "Guter Oberfarb-Einfärber",
+            "4er-Unterfarbe als Nebenfarbe möglich"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-010",
+          "topic": "Farberöffnung stark",
+          "sequence": ["2♣"],
+          "meaning": "Spezielle Semiforcing-Eröffnung mit sehr guter 5er-Oberfarbe.",
+          "conditions": [
+            "22–23 FL",
+            "Sehr gute 5er-Oberfarbe",
+            "4er-Unterfarbe als Nebenfarbe möglich"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-011",
+          "topic": "Farberöffnung stark",
+          "sequence": ["2♣"],
+          "meaning": "Spezielle Semiforcing-Eröffnung mit gutem Unterfarb-Einfärber.",
+          "conditions": [
+            "8,5–9,5 Spielstiche",
+            "Guter Unterfarb-Einfärber",
+            "In der Regel 7er-Länge"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-012",
+          "topic": "Farberöffnung stark",
+          "sequence": ["2♣"],
+          "meaning": "Spezielle Semiforcing-Eröffnung mit sehr gutem Oberfarb-Zweifärber.",
+          "conditions": [
+            "18–21 F",
+            "Sehr guter Oberfarb-Zweifärber mit 5-5",
+            "3–4 Verlierer"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-013",
+          "topic": "Farberöffnung sehr stark",
+          "sequence": ["2♦"],
+          "meaning": "Starke Eröffnung.",
+          "conditions": [
+            "Ab 24 FL alle Blatttypen.",
+            "Zusätzlich Oberfarb-Einfärber ab 9 Spielstichen.",
+            "Unterfarb-Einfärber ab 10 Spielstichen.",
+            "Zweifärber mit weniger als 3 Verlierern."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-014",
+          "topic": "SA stark",
+          "sequence": ["2SA"],
+          "meaning": "Starke Sans-Atout-Eröffnung mit gleichmäßiger Verteilung.",
+          "conditions": [
+            "20–21 FL",
+            "Gleichmäßige Verteilung",
+            "In der Regel ohne 5er-Oberfarbe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.2",
+          "status": "belegt",
+          "notes": ["Die Einschränkung 'in der Regel' muss erhalten bleiben."]
+        },
+        {
+          "rule_id": "FD2012-01-015",
+          "topic": "Farberöffnung Auswahl",
+          "sequence": ["Farbqualität"],
+          "meaning": "Definition der in den Eröffnungsregeln verwendeten Farbqualitäten.",
+          "conditions": [
+            "Stehend: AKDB; ab 7er-Länge genügt AKD.",
+            "Fast stehend: 4 Figuren von 5, eine der ersten 4 fehlt; bei 6er-Länge genügt AKD.",
+            "Sehr gut: 2 Topfiguren mit Mittelwerten; ab 7er-Länge genügen 2 Topfiguren.",
+            "Gut: Ass oder König mit Mittelwerten; oder 2 Topfiguren; oder DB10.",
+            "Annehmbar: mindestens 3 Figuren (= Längenpunkt-Mindestqualität).",
+            "Schwach: weniger als annehmbar."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1, Fußnote Farbqualitäten",
+          "status": "belegt",
+          "notes": [
+            "Die Farbqualität bezeichnet in der Regel die geforderte Mindestqualität."
+          ]
+        },
+        {
+          "rule_id": "FD2012-01-016",
+          "topic": "Sperreröffnung Teilspielbereich",
+          "sequence": ["2♥", "2♠"],
+          "meaning": "Sperreröffnung in Oberfarbe im Teilspielbereich.",
+          "conditions": [
+            "Weniger als 13 FL",
+            "Weniger als 2 Asse",
+            "6–10 F",
+            "Gute 6er-Farbe",
+            "Bei günstiger Gefahrenlage geringere Anforderungen an die Farbqualität"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-017",
+          "topic": "Sperreröffnung Teilspielbereich",
+          "sequence": ["3♣", "3♦"],
+          "meaning": "Sperreröffnung in Unterfarbe auf Dreierstufe.",
+          "conditions": [
+            "Weniger als 13 FL",
+            "Weniger als 2 Asse",
+            "5–9 (10) F",
+            "Sehr gute 7er-Farbe, nicht AKD"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-018",
+          "topic": "Sperreröffnung Teilspielbereich",
+          "sequence": ["3♥", "3♠"],
+          "meaning": "Sperreröffnung in Oberfarbe auf Dreierstufe.",
+          "conditions": [
+            "Weniger als 13 FL",
+            "Weniger als 2 Asse",
+            "5–9 (10) F",
+            "Gute 7er-Farbe",
+            "Bei günstiger Gefahrenlage geringere Anforderungen an die Farbqualität"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-019",
+          "topic": "Sperreröffnung Teilspielbereich",
+          "sequence": ["4♣", "4♦"],
+          "meaning": "Sperreröffnung in Unterfarbe auf Viererstufe.",
+          "conditions": [
+            "Weniger als 13 FL",
+            "Weniger als 2 Asse",
+            "4–8 F",
+            "Gute, nicht sehr gute 8er-Länge oder 7-4-Verteilung in Unterfarben"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-020",
+          "topic": "Sperreröffnung Vollspielbereich",
+          "sequence": ["3SA"],
+          "meaning": "Sperreröffnung mit stehender Unterfarbe.",
+          "conditions": [
+            "9–13 F",
+            "Stehende 7er-Unterfarbe",
+            "Kein Seiten-Ass oder -König",
+            "Keine 4er-Oberfarbe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.4",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-021",
+          "topic": "Sperreröffnung Vollspielbereich",
+          "sequence": ["4♥", "4♠"],
+          "meaning": "Sperreröffnung in Oberfarbe auf Viererstufe.",
+          "conditions": [
+            "7–13 F",
+            "Gute 8er-Farbe oder stehende 7er-Farbe oder gute 7er-Farbe mit 4er-Unterfarbe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.4",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-022",
+          "topic": "Sperreröffnung Vollspielbereich",
+          "sequence": ["5♣", "5♦"],
+          "meaning": "Sperreröffnung in Unterfarbe auf Fünferstufe.",
+          "conditions": [
+            "7–13 F",
+            "Sehr gute 8er-Farbe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.4",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-01-023",
+          "topic": "Sperreröffnung Teilspielbereich",
+          "sequence": ["Sperreröffnungen im Teilspielbereich"],
+          "meaning": "Die Eröffnung erfolgt abhängig von der Gefahrenlage über der tatsächlichen Spielstichzahl des Blattes.",
+          "conditions": [
+            "Weniger als 13 FL",
+            "Weniger als 2 Asse",
+            "Je nach Gefahrenlage 2–4 Stiche höher eröffnen als das Blatt Spielstiche hat."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 1.3",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-02",
+      "source_section": "2",
+      "title": "Antworten auf Oberfarberöffnungen",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-02-001",
+          "topic": "OF-Hebung",
+          "sequence": ["1♠", "2♠"],
+          "meaning": "Hebung der eröffneten Oberfarbe.",
+          "conditions": [
+            "6–10 FV",
+            "Mindestens 3er-Fit"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Hebungen",
+          "status": "belegt",
+          "notes": [
+            "Das PDF zeigt Pik als Beispiel."
+          ]
+        },
+        {
+          "rule_id": "FD2012-02-002",
+          "topic": "OF-Hebung",
+          "sequence": ["1♠", "3♠"],
+          "meaning": "Hebung der eröffneten Oberfarbe.",
+          "conditions": [
+            "11–12 FV",
+            "Mindestens 3er-Fit"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Hebungen",
+          "status": "belegt",
+          "notes": [
+            "Das PDF zeigt Pik als Beispiel."
+          ]
+        },
+        {
+          "rule_id": "FD2012-02-003",
+          "topic": "OF-Hebung",
+          "sequence": ["1♠", "4♠"],
+          "meaning": "Hebung der eröffneten Oberfarbe.",
+          "conditions": [
+            "13–14 FV",
+            "Mindestens 3er-Fit"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Hebungen",
+          "status": "belegt",
+          "notes": [
+            "Das PDF zeigt Pik als Beispiel."
+          ]
+        },
+        {
+          "rule_id": "FD2012-02-004",
+          "topic": "OF-Farbwechsel 1 über 1",
+          "sequence": ["1♥", "1♠"],
+          "meaning": "Farbwechsel auf der Einerstufe.",
+          "conditions": [
+            "Ab 6 FL",
+            "Mindestens 4er-Pik"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Farbwechsel 1 über 1",
+          "status": "belegt",
+          "notes": [
+            "Forcing: Partner darf in seiner nächsten Ansage nicht passen."
+          ]
+        },
+        {
+          "rule_id": "FD2012-02-005",
+          "topic": "OF-Farbwechsel 2 über 1",
+          "sequence": ["1♥", "2♣"],
+          "meaning": "Farbwechsel auf der Zweierstufe.",
+          "conditions": [
+            "Ab 11 FL",
+            "Mindestens 4er-Treff"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Farbwechsel 2 über 1",
+          "status": "belegt",
+          "notes": [
+            "Selbstforcing: Verspricht ein weiteres Gebot, wenn Partner nicht Vollspiel ansagt."
+          ]
+        },
+        {
+          "rule_id": "FD2012-02-006",
+          "topic": "OF-Farbwechsel 2 über 1",
+          "sequence": ["1♠", "2♥"],
+          "meaning": "Farbwechsel auf der Zweierstufe.",
+          "conditions": [
+            "Ab 11 FL",
+            "Mindestens 5er-Cœur"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Farbwechsel 2 über 1",
+          "status": "belegt",
+          "notes": [
+            "Selbstforcing: Verspricht ein weiteres Gebot, wenn Partner nicht Vollspiel ansagt."
+          ]
+        },
+        {
+          "rule_id": "FD2012-02-007",
+          "topic": "OF-Farbwechsel im Sprung",
+          "sequence": ["1♠", "3♦"],
+          "meaning": "Farbwechsel im Sprung.",
+          "conditions": [
+            "Ab 18 FL",
+            "Sehr gute 6er-Karo-Farbe",
+            "Einfärber",
+            "Kein Fit"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Farbwechsel im Sprung",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-02-008",
+          "topic": "SA-Antwort",
+          "sequence": ["1♥", "1SA"],
+          "meaning": "Antwort in Sans-Atout auf eine Oberfarberöffnung.",
+          "conditions": [
+            "6–10 FL",
+            "Kein Fit",
+            "Kein 4er-Pik"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Sans-Atout",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-02-009",
+          "topic": "SA-Antwort",
+          "sequence": ["1♠", "2SA"],
+          "meaning": "Antwort in Sans-Atout auf eine Oberfarberöffnung.",
+          "conditions": [
+            "11–12 FL",
+            "Gleichmäßige Verteilung",
+            "Stopper in den übrigen Farben"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Sans-Atout",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-02-010",
+          "topic": "SA-Antwort",
+          "sequence": ["1♠", "3SA"],
+          "meaning": "Antwort in Sans-Atout auf eine Oberfarberöffnung.",
+          "conditions": [
+            "13–14 FL",
+            "Gleichmäßige Verteilung",
+            "Keine 4er-Oberfarbe",
+            "Stopper in den übrigen Farben"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Sans-Atout",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-02-011",
+          "topic": "Forcing-Begriffe",
+          "sequence": ["Forcing-Begriffe"],
+          "meaning": "Definition der Forcing-Qualitäten.",
+          "conditions": [
+            "Forcing: Partner darf in seiner nächsten Ansage nicht passen.",
+            "Selbstforcing: Verspricht ein weiteres Gebot, wenn Partner nicht Vollspiel ansagt.",
+            "Vollspielforcing: Forcierend bis zum Vollspiel."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 2, Fußnote 2",
+          "status": "belegt",
+          "notes": [
+            "Forcing wird auch als rundenforcing bezeichnet.",
+            "Vollspielforcing wird auch als partieforcing oder gameforcing bezeichnet."
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-03",
+      "source_section": "3",
+      "title": "Antworten auf Unterfarberöffnungen",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-03-001",
+          "topic": "UF-Farbwechsel 1 über 1",
+          "sequence": ["1♦", "1♠"],
+          "meaning": "Farbwechsel 1 über 1.",
+          "conditions": [
+            "Ab 6 FL",
+            "Mindestens 4er-Pik"
+          ],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Farbwechsel 1 über 1",
+          "status": "belegt",
+          "notes": [
+            "Forcing bedeutet: Partner darf in seiner nächsten Ansage nicht passen."
+          ]
+        },
+        {
+          "rule_id": "FD2012-03-002",
+          "topic": "UF-Farbwechsel 1 über 1",
+          "sequence": ["1♣", "Antwort auf 1er-Stufe"],
+          "meaning": "Nach einer Treff-Eröffnung hat bei Händen unter Eröffnungsstärke die Reizung einer Oberfarbe Vorrang vor der 1♦-Antwort.",
+          "conditions": [
+            "Hand unter Eröffnungsstärke"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Farbwechsel 1 über 1",
+          "status": "belegt",
+          "notes": [
+            "Die Regel beschreibt eine Priorität bei der Wahl der Antwort, keine einzelne konkrete Gebotsfolge."
+          ]
+        },
+        {
+          "rule_id": "FD2012-03-003",
+          "topic": "UF-Farbwechsel 2 über 1",
+          "sequence": ["1♦", "2♣"],
+          "meaning": "Farbwechsel 2 über 1.",
+          "conditions": [
+            "Ab 11 FL",
+            "Mindestens 4er-Treff"
+          ],
+          "conventions": ["Selbstforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Farbwechsel 2 über 1",
+          "status": "belegt",
+          "notes": [
+            "Selbstforcing bedeutet: Der Antwortende verspricht ein weiteres Gebot, wenn der Eröffner nicht Vollspiel ansagt."
+          ]
+        },
+        {
+          "rule_id": "FD2012-03-004",
+          "topic": "UF-Farbwechsel im Sprung",
+          "sequence": ["1♣", "2♥"],
+          "meaning": "Farbwechsel im Sprung.",
+          "conditions": [
+            "Ab 18 FL",
+            "Sehr gute 6er-Herzfarbe",
+            "Einfärber",
+            "Kein Fit"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Farbwechsel im Sprung",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-03-005",
+          "topic": "UF-Farbwechsel im Doppelsprung",
+          "sequence": ["1♦", "3♠"],
+          "meaning": "Farbwechsel im Doppelsprung auf der 3er-Stufe.",
+          "conditions": [
+            "4–8 F",
+            "Gute 7er-Pikfarbe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Farbwechsel im Doppelsprung",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-03-006",
+          "topic": "UF-Antwort in Sans-Atout",
+          "sequence": ["1♣", "1SA"],
+          "meaning": "Antwort in Sans-Atout.",
+          "conditions": [
+            "6–10 FL",
+            "Keine 4er-Oberfarbe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Sans-Atout",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-03-007",
+          "topic": "UF-Antwort in Sans-Atout",
+          "sequence": ["1♦", "2SA"],
+          "meaning": "Antwort in Sans-Atout.",
+          "conditions": [
+            "11–12 FL",
+            "Keine 4er-Oberfarbe",
+            "Gleichmäßige Verteilung",
+            "Stopper in den übrigen Farben"
+          ],
+          "conventions": ["Nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Sans-Atout",
+          "status": "belegt",
+          "notes": [
+            "Nonforcing: Das Gebot ist nicht forcing."
+          ]
+        },
+        {
+          "rule_id": "FD2012-03-008",
+          "topic": "UF-Antwort in Sans-Atout",
+          "sequence": ["1♣", "3SA"],
+          "meaning": "Antwort in Sans-Atout.",
+          "conditions": [
+            "13–14 FL",
+            "Gleichmäßige Verteilung",
+            "Keine 4er-Oberfarbe",
+            "Stopper in den übrigen Farben"
+          ],
+          "conventions": ["Nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Sans-Atout",
+          "status": "belegt",
+          "notes": [
+            "Nonforcing: Das Gebot ist nicht forcing."
+          ]
+        },
+        {
+          "rule_id": "FD2012-03-009",
+          "topic": "UF-Hebung",
+          "sequence": ["1♣", "2♣"],
+          "meaning": "Hebung der Unterfarbe.",
+          "conditions": [
+            "6–10 FV",
+            "Mindestens 5er-Treff",
+            "Keine 4er-Oberfarbe",
+            "Meist ungleichmäßige Verteilung"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Hebungen",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-03-010",
+          "topic": "UF-Hebung",
+          "sequence": ["1♦", "2♦"],
+          "meaning": "Hebung der Unterfarbe.",
+          "conditions": [
+            "6–10 FV",
+            "4er-Karo ist möglich, falls eine längere Trefffarbe vorhanden ist",
+            "Meist ungleichmäßige Verteilung"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Hebungen",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-03-011",
+          "topic": "UF-Hebung",
+          "sequence": ["1♦", "3♦"],
+          "meaning": "Hebung der Unterfarbe.",
+          "conditions": [
+            "11–12 FV",
+            "Mindestens 5er-Karo",
+            "Keine 4er-Oberfarbe",
+            "Meist ungleichmäßige Verteilung"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 3, Hebungen",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-04",
+      "source_section": "4",
+      "title": "Wiedergebote des Eröffners",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-04-001",
+          "topic": "Prioritätenfolge",
+          "sequence": [],
+          "meaning": "Prioritäten beim Wiedergebot des Eröffners.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [
+            "1. Hebung der Oberfarbe des Antwortenden",
+            "2. Neue Oberfarbe auf Einerstufe",
+            "3. Beschreibung von Verteilungstyp und Stärke"
+          ],
+          "source_reference": "PDF Abschnitt 4, Prioritätenfolge",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-002",
+          "topic": "Wiedergebot Hebung",
+          "sequence": ["1♣", "1♥", "2♥"],
+          "meaning": "Hebung der Oberfarbe des Antwortenden.",
+          "conditions": ["4er-Cœur", "Bis 16 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Hebung",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-003",
+          "topic": "Wiedergebot Hebung",
+          "sequence": ["1♣", "1♥", "3♥"],
+          "meaning": "Hebung der Oberfarbe des Antwortenden.",
+          "conditions": ["4er-Cœur", "17–19 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Hebung",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-004",
+          "topic": "Wiedergebot Hebung",
+          "sequence": ["1♣", "1♥", "4♥"],
+          "meaning": "Hebung der Oberfarbe des Antwortenden.",
+          "conditions": ["4er-Cœur", "20–23 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Hebung",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-005",
+          "topic": "Neue Oberfarbe auf Einerstufe",
+          "sequence": ["1♦", "1♥", "1♠"],
+          "meaning": "Neue Oberfarbe auf Einerstufe; zeigt 4er-Pik.",
+          "conditions": ["Bis 19 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Oberfarbe auf Einerstufe",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-006",
+          "topic": "Gleichmäßige Verteilung",
+          "sequence": ["1♣", "1♥", "1SA"],
+          "meaning": "Wiedergebot in Sans-Atout bei gleichmäßiger Verteilung.",
+          "conditions": ["Bis 14 FL", "Verneint 4er-Cœur und 4er-Pik"],
+          "conventions": ["Nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, gleichmäßige Verteilung",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-007",
+          "topic": "Wiedergebot SA",
+          "sequence": ["1♦", "1♠", "2SA"],
+          "meaning": "Wiedergebot in Sans-Atout bei gleichmäßiger Verteilung.",
+          "conditions": ["18–19 FL"],
+          "conventions": ["Theoretisch nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, gleichmäßige Verteilung",
+          "status": "belegt",
+          "notes": ["Laut Quelle in der Praxis selten Endkontrakt."]
+        },
+        {
+          "rule_id": "FD2012-04-008",
+          "topic": "Wiedergebot SA",
+          "sequence": ["1♥", "1♠", "1SA"],
+          "meaning": "Besonderes Sans-Atout-Wiedergebot nach Oberfarbwechsel.",
+          "conditions": ["Bis 15 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Besonderheit nach 1♥–1♠",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-009",
+          "topic": "Wiedergebot SA",
+          "sequence": ["1♥", "1♠", "2SA"],
+          "meaning": "Besonderes Sans-Atout-Wiedergebot nach Oberfarbwechsel.",
+          "conditions": ["16–18 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Besonderheit nach 1♥–1♠",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-010",
+          "topic": "Wiedergebot SA",
+          "sequence": ["1♥", "1♠", "3SA"],
+          "meaning": "Besonderes Sans-Atout-Wiedergebot nach Oberfarbwechsel.",
+          "conditions": ["19–20 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Besonderheit nach 1♥–1♠",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-011",
+          "topic": "Einfärber",
+          "sequence": ["1♣", "1♦", "2♣"],
+          "meaning": "Wiederholung der Eröffnungsfarbe ohne Sprung bei einem Einfärber.",
+          "conditions": ["Bis 16 FL"],
+          "conventions": ["Nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Einfärber",
+          "status": "belegt",
+          "notes": ["Die Sequenz ist ein Beispiel aus der Quelle."]
+        },
+        {
+          "rule_id": "FD2012-04-012",
+          "topic": "Einfärber",
+          "sequence": ["1♦", "1♠", "3♦"],
+          "meaning": "Wiederholung der Eröffnungsfarbe im Sprung bei einem guten Einfärber.",
+          "conditions": ["17–19 FL", "Guter Einfärber"],
+          "conventions": ["Nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Einfärber",
+          "status": "belegt",
+          "notes": ["Die Sequenz ist ein Beispiel aus der Quelle."]
+        },
+        {
+          "rule_id": "FD2012-04-013",
+          "topic": "Wiedergebot Zweifärber",
+          "sequence": ["1♥", "1♠", "2♣"],
+          "meaning": "Billig zu reizender Zweifärber ohne Sprung.",
+          "conditions": ["Bis 19 FL"],
+          "conventions": ["Nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, billig zu reizende Zweifärber",
+          "status": "belegt",
+          "notes": ["Laut Quelle wird dieses Gebot selten gepasst, da der Eröffner stark sein kann."]
+        },
+        {
+          "rule_id": "FD2012-04-014",
+          "topic": "Wiedergebot Zweifärber",
+          "sequence": ["1♥", "1♠", "3♦"],
+          "meaning": "Billig zu reizender Zweifärber im Sprung.",
+          "conditions": ["20–23 FL"],
+          "conventions": ["Partieforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, billig zu reizende Zweifärber",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-015",
+          "topic": "Wiedergebot Zweifärber",
+          "sequence": ["1♣", "1♠", "2♥"],
+          "meaning": "Nur teuer zu reizender Zweifärber (Reverse).",
+          "conditions": ["17–23 FL"],
+          "conventions": ["Selbstforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, Reverse",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-016",
+          "topic": "Wiedergebot bei höchstens 16 FL",
+          "sequence": [],
+          "meaning": "Bei höchstens 16 FL darf die zweite Farbe eines nur teuer zu reizenden Zweifärbers nicht gereizt werden. Stattdessen wird die Eröffnungsfarbe (5er) wiederholt oder 1SA geboten.",
+          "conditions": ["Bis 16 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.1, bis 16 FL",
+          "status": "belegt",
+          "notes": ["Für 1SA nennt die Quelle 5-4-2-2, eine Topfigur in der ungereizten Kürze und maximal 14(15) FL."]
+        },
+        {
+          "rule_id": "FD2012-04-017",
+          "topic": "Wiedergebot nach 1SA",
+          "sequence": [],
+          "meaning": "Farbwiederholungen zeigen immer 6er-Länge.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.2",
+          "status": "belegt",
+          "notes": ["Ausnahme: Treff."]
+        },
+        {
+          "rule_id": "FD2012-04-018",
+          "topic": "Wiedergebot nach 1SA",
+          "sequence": ["1♦", "1SA", "2SA"],
+          "meaning": "Hebung auf 2SA.",
+          "conditions": ["16–18 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-019",
+          "topic": "Wiedergebot nach 2SA",
+          "sequence": ["1♠", "2SA", "3♦"],
+          "meaning": "Neue Farbe nach Antwort 2SA.",
+          "conditions": [],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-020",
+          "topic": "Wiedergebot nach 2SA",
+          "sequence": ["1♥", "2SA", "3♥"],
+          "meaning": "Wiederholung der Eröffnungsfarbe auf der 3er-Stufe.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.3",
+          "status": "belegt",
+          "notes": ["Abschluss."]
+        },
+        {
+          "rule_id": "FD2012-04-021",
+          "topic": "Wiedergebot nach Hebung",
+          "sequence": ["1♠", "2♠", "3♠"],
+          "meaning": "Einladung zu 4♠ nach direkter Hebung in Oberfarbe.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.4",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-022",
+          "topic": "Wiedergebot nach Hebung",
+          "sequence": ["1♦", "3♦", "3♠"],
+          "meaning": "Eine neue Farbe nach direkter Hebung in Unterfarbe ist forcing und zeigt einen Stopper.",
+          "conditions": [],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.5",
+          "status": "belegt",
+          "notes": ["Die Sequenz ist ein Beispiel aus der Quelle: 3♠ zeigt Pik-Stopper, keinen Cœur-Stopper und ausreichende Stärke für 3SA."]
+        },
+        {
+          "rule_id": "FD2012-04-023",
+          "topic": "Wiedergebot nach Hebung",
+          "sequence": ["1♣", "2♣", "2♦"],
+          "meaning": "Neue Farbe nach direkter Hebung in Unterfarbe.",
+          "conditions": ["Karo-Stopper", "Mindestens einladende Stärke für 3SA"],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.5",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-024",
+          "topic": "Nach Farbwechsel 2 über 1",
+          "sequence": [],
+          "meaning": "Alle Wiedergebote des Eröffners unterhalb von Vollspiel sind nicht passbar.",
+          "conditions": ["Der Antwortende hat selbstforcing geboten."],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-025",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♥", "2♣", "3♣"],
+          "meaning": "Hebung in Unterfarbe.",
+          "conditions": ["4er-Treff"],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Hebungen auf 3 in Unterfarbe",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-026",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♠", "2♦", "4♦"],
+          "meaning": "Hebung auf 4 in Unterfarbe.",
+          "conditions": ["Mindestens 5-5", "Ab 20 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Hebungen auf 4 in Unterfarbe",
+          "status": "belegt",
+          "notes": ["Starkes Schlemminteresse."]
+        },
+        {
+          "rule_id": "FD2012-04-027",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♠", "2♥", "3♥"],
+          "meaning": "Hebung in Oberfarbe.",
+          "conditions": ["Entweder 3er-Cœur oder 4er-Cœur ohne Minimum"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Hebungen auf 3 Cœur",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-028",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♠", "2♥", "4♥"],
+          "meaning": "Hebung in Oberfarbe.",
+          "conditions": ["4er-Cœur", "Minimum"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Hebungen auf 4 Cœur",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-029",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♠", "2♣", "2♦"],
+          "meaning": "Billig zu reizender Zweifärber.",
+          "conditions": ["Bis 19 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, neue Farbe",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-030",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♥", "2♣", "3♦"],
+          "meaning": "Billig zu reizender Zweifärber im Sprung.",
+          "conditions": ["20–23 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, neue Farbe",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-031",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♥", "2♦", "2♠"],
+          "meaning": "Teurer Zweifärber.",
+          "conditions": ["17–23 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, neue Farbe",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-032",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♥", "2♣", "2♥"],
+          "meaning": "Wiederholung der Eröffnungsfarbe ohne Sprung.",
+          "conditions": [
+            "Einfärber bis 16 FL",
+            "Oder Zweifärber mit teurer zweiter Farbe bis 16 FL",
+            "Oder gleichmäßige Verteilung bis 14 FL"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Wiederholung Eröffnungsfarbe",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-033",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♥", "2♣", "3♥"],
+          "meaning": "Wiederholung der Eröffnungsfarbe im Sprung.",
+          "conditions": ["Guter Einfärber", "17–19 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Wiederholung Eröffnungsfarbe",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-034",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♠", "2♣", "2SA"],
+          "meaning": "Sans-Atout-Wiedergebot nach Oberfarberöffnung ohne Sprung.",
+          "conditions": ["15–17 FL", "Gleichmäßige Verteilung"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Sans-Atout",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-035",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♦", "2♣", "2SA"],
+          "meaning": "Sans-Atout-Wiedergebot nach Unterfarberöffnung ohne Sprung.",
+          "conditions": ["Bis 14 FL", "Gleichmäßige Verteilung"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Sans-Atout",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-036",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♥", "2♦", "3SA"],
+          "meaning": "Sans-Atout-Wiedergebot im Sprung.",
+          "conditions": ["18–19 FL", "Gleichmäßige Verteilung"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Sans-Atout",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-04-037",
+          "topic": "Wiedergebot nach Farbwechsel",
+          "sequence": ["1♦", "2♣", "3SA"],
+          "meaning": "Sans-Atout-Wiedergebot im Sprung.",
+          "conditions": ["18–19 FL", "Gleichmäßige Verteilung"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 4.6, Sans-Atout",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },    
+    {
+      "section_id": "FD2012-05",
+      "source_section": "5",
+      "title": "Wiedergebot des Antwortenden",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-05-001",
+          "topic": "Eröffner hat Zusatzstärke gezeigt",
+          "sequence": [],
+          "meaning": "Jedes Wiedergebot des Antwortenden unterhalb von 3SA ist forcing.",
+          "conditions": [
+            "Der Eröffner hat mit seinem Wiedergebot Zusatzstärke gezeigt."
+          ],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-002",
+          "topic": "Farbwiederholung nach Zusatzstärke",
+          "sequence": [],
+          "meaning": "Farbwiederholungen zeigen mindestens eine 5er-Länge.",
+          "conditions": [
+            "Der Eröffner hat Zusatzstärke gezeigt."
+          ],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.1",
+          "status": "belegt",
+          "notes": [
+            "Beispiel 1: 1♥ – 1♠ – 3♥ – 3♠.",
+            "Beispiel 2: 1♦ – 1♠ – 2SA – 3♦.",
+            "Die Beispiele zeigen die Anwendung der Regel und begründen keine zusätzlichen allgemeinen Sequenzen."
+          ]
+        },
+        {
+          "rule_id": "FD2012-05-003",
+          "topic": "2. Wiedergebot nach Hebung",
+          "sequence": ["1♣", "1♠", "2♠", "3♠"],
+          "meaning": "Einladung nach Hebung.",
+          "conditions": [
+            "Der Eröffner hat keine Zusatzstärke gezeigt."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-004",
+          "topic": "2. Wiedergebot nach Farbwechsel",
+          "sequence": ["1♦", "1♠", "2♣", "2♠"],
+          "meaning": "Farbwiederholung mit 6er-Pik.",
+          "conditions": [
+            "6–10 FL",
+            "Der Eröffner hat keine Zusatzstärke gezeigt."
+          ],
+          "conventions": ["Nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-005",
+          "topic": "2. Wiedergebot nach Farbwechsel",
+          "sequence": ["1♣", "1♥", "1♠", "3♥"],
+          "meaning": "Farbwiederholung mit guter 6er-Herzfarbe.",
+          "conditions": [
+            "11–12 FL",
+            "Der Eröffner hat keine Zusatzstärke gezeigt."
+          ],
+          "conventions": ["Nonforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-006",
+          "topic": "Sans-Atout nach 1SA-Wiedergebot des Eröffners",
+          "sequence": [],
+          "meaning": "Antworten in Sans-Atout nach einem 1SA-Wiedergebot des Eröffners sind nicht forcing.",
+          "conditions": [],
+          "conventions": ["Nonforcing"],
+          "continuations": [
+            "1SA: 6–10 FL",
+            "2SA: 11–12 FL",
+            "3SA: 13–15 FL"
+          ],
+          "source_reference": "PDF Abschnitt 5.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-007",
+          "topic": "Verzögerte Hebung",
+          "sequence": ["1♥", "1♠", "2♣", "2♥"],
+          "meaning": "Verzögerte Hebung der Eröffnungsfarbe; nur Ausbessern.",
+          "conditions": [
+            "2er-Cœur",
+            "6–10 FL"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.2",
+          "status": "belegt",
+          "notes": [
+            "Ohne Sprung auf der 2er-Stufe nach 1 über 1."
+          ]
+        },
+        {
+          "rule_id": "FD2012-05-008",
+          "topic": "Sprunghebung",
+          "sequence": ["1♦", "1♥", "1♠", "3♦"],
+          "meaning": "Sprunghebung der Unterfarbe nach einem Farbwechsel 1 über 1.",
+          "conditions": [
+            "Guter Karo-Fit"
+          ],
+          "conventions": ["Vollspielforcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-009",
+          "topic": "Sprunghebung",
+          "sequence": ["1♠", "2♣", "2♦", "3♠"],
+          "meaning": "Sprunghebung nach Farbwechsel 2 über 1.",
+          "conditions": [
+            "Ab 16 FV"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.2",
+          "status": "belegt",
+          "notes": [
+            "Schlemminteresse."
+          ]
+        },
+        {
+          "rule_id": "FD2012-05-010",
+          "topic": "Neue Farbe",
+          "sequence": [],
+          "meaning": "Ist die gereizte Farbe die zweite oder dritte Farbe, die die Partnerschaft reizt, ist das Gebot grundsätzlich natürlich und zeigt diese Farbe.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.3",
+          "status": "belegt",
+          "notes": [
+            "In manchen Situationen genügen Werte in dieser Farbe."
+          ]
+        },
+        {
+          "rule_id": "FD2012-05-011",
+          "topic": "Vierte Farbe",
+          "sequence": [],
+          "meaning": "Ist die gereizte Farbe die vierte Farbe, die die Partnerschaft reizt, ist das Gebot konventionell und fragt nach weiterer Beschreibung des Blattes.",
+          "conditions": [],
+          "conventions": ["Konventionelles Gebot"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-012",
+          "topic": "Neue Farbe auf der 2er-Stufe",
+          "sequence": [],
+          "meaning": "Eine neue Farbe auf der 2er-Stufe verspricht ab 11 FL.",
+          "conditions": [
+            "Neue Farbe auf der 2er-Stufe"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-013",
+          "topic": "Neue Farbe",
+          "sequence": [],
+          "meaning": "Eine neue Farbe ist grundsätzlich forcing.",
+          "conditions": [],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.3",
+          "status": "belegt",
+          "notes": [
+            "Die Quelle nennt zwei Ausnahmen: nach erster Antwort 1SA sowie den billigen Oberfarb-Zweifärber nach 1SA-Wiedergebot des Eröffners.",
+            "Siehe Regeln FD2012-05-015 und FD2012-05-016."
+          ]
+        },
+        {
+          "rule_id": "FD2012-05-014",
+          "topic": "Neue Unterfarbe Forcing (NUF)",
+          "sequence": ["1♦", "1♠", "1SA", "2♣"],
+          "meaning": "Neue Unterfarbe auf der 2er-Stufe nach 1SA-Wiedergebot des Eröffners.",
+          "conditions": [
+            "Ab 11 FL"
+          ],
+          "conventions": ["Neue Unterfarbe Forcing (NUF)"],
+          "continuations": [
+            "Das Gebot sagt nichts über Treff.",
+            "Es macht die zuvor gereizte Oberfarbe zur 5er-Farbe.",
+            "Der Eröffner beschreibt seine Verteilung weiter: Minimum auf der 2er-Stufe, Maximum auf der 3er-Stufe.",
+            "Nachträgliche Unterstützung der Oberfarbe des Partners zeigt 3er-Länge."
+          ],
+          "source_reference": "PDF Abschnitt 5.4",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-015",
+          "topic": "Ausnahme zur Regel neue Farbe ist forcing",
+          "sequence": ["1♠", "1SA", "2♣", "2♦"],
+          "meaning": "Neue Farbe nach erster Antwort 1SA.",
+          "conditions": [
+            "Mindestens 5er-Karo, eher 6er-Karo",
+            "Erste Antwort 1SA limitiert auf maximal 10 FL"
+          ],
+          "conventions": ["Ausnahme von der Forcing-Regel"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.4",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-05-016",
+          "topic": "Ausnahme zur Regel neue Farbe ist forcing",
+          "sequence": ["1♣", "1♠", "1SA", "2♥"],
+          "meaning": "Billiger Oberfarb-Zweifärber nach 1SA-Wiedergebot des Eröffners.",
+          "conditions": [
+            "5er-Pik",
+            "4er-Cœur",
+            "Maximal 10 FL"
+          ],
+          "conventions": ["Ausnahme von der Forcing-Regel"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 5.4",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-06",
+      "source_section": "6",
+      "title": "Antworten und Folgereizung nach 1-SA-Eröffnung",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-06-001",
+          "topic": "Stayman",
+          "sequence": ["1SA", "2♣"],
+          "meaning": "Stayman.",
+          "conditions": ["Ab 9 (8) FL", "Mindestens eine Oberfarbe genau 4er-Länge"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": ["Bei 5-4 in den Oberfarben ab 9 (8) FL immer über Stayman."]
+        },
+        {
+          "rule_id": "FD2012-06-002",
+          "topic": "Antwort des Eröffners nach Stayman",
+          "sequence": ["1SA", "2♣", "2♦"],
+          "meaning": "Der Eröffner zeigt keine 4er-Oberfarbe.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-003",
+          "topic": "Antwort des Eröffners nach Stayman",
+          "sequence": ["1SA", "2♣", "2♥"],
+          "meaning": "Der Eröffner zeigt 4er-Cœur und verneint 4er-Pik.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-004",
+          "topic": "Antwort des Eröffners nach Stayman",
+          "sequence": ["1SA", "2♣", "2♠"],
+          "meaning": "Der Eröffner zeigt 4er-Pik und verneint 4er-Cœur.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-005",
+          "topic": "Antwort des Eröffners nach Stayman",
+          "sequence": ["1SA", "2♣", "2SA"],
+          "meaning": "Der Eröffner zeigt beide Oberfarben zu viert.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-006",
+          "topic": "Stayman-Fitbestätigung",
+          "sequence": [],
+          "meaning": "Fitbestätigungen des Antwortenden auf der 3er-Stufe sind einladend.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [
+            ["1SA", "2♣", "2♠", "3♠"],
+            ["1SA", "2♣", "2SA", "3♠"]
+          ],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-007",
+          "topic": "Wiedergebot nach Stayman",
+          "sequence": ["1SA", "2♣", "2♦", "2♠"],
+          "meaning": "Der Antwortende zeigt 5er-Pik und zusätzlich 4er-Cœur.",
+          "conditions": ["9 (8) FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": ["Einladend."]
+        },
+        {
+          "rule_id": "FD2012-06-008",
+          "topic": "Wiedergebot nach Stayman",
+          "sequence": ["1SA", "2♣", "2♦", "3♥"],
+          "meaning": "Der Antwortende zeigt 5er-Cœur und zusätzlich 4er-Pik.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": ["Vollspielforcierend."]
+        },
+        {
+          "rule_id": "FD2012-06-009",
+          "topic": "Quantitative Einladung nach Stayman",
+          "sequence": ["1SA", "2♣", "2♠", "4SA"],
+          "meaning": "Quantitatives Gebot ohne gefundenen Oberfarbfit.",
+          "conditions": ["16–17 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.1",
+          "status": "belegt",
+          "notes": ["Einladend zu 6SA."]
+        },
+        {
+          "rule_id": "FD2012-06-010",
+          "topic": "Oberfarb-Transfer",
+          "sequence": ["1SA", "2♦"],
+          "meaning": "Transfer auf Cœur.",
+          "conditions": ["Mindestens 5er-Cœur", "Ab null Punkten"],
+          "conventions": ["Oberfarb-Transfer"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Der Eröffner ist grundsätzlich verpflichtet, den Transfer auszuführen."]
+        },
+        {
+          "rule_id": "FD2012-06-011",
+          "topic": "Oberfarb-Transfer",
+          "sequence": ["1SA", "2♥"],
+          "meaning": "Transfer auf Pik.",
+          "conditions": ["Mindestens 5er-Pik", "Ab null Punkten"],
+          "conventions": ["Oberfarb-Transfer"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Der Eröffner ist grundsätzlich verpflichtet, den Transfer auszuführen."]
+        },
+        {
+          "rule_id": "FD2012-06-012",
+          "topic": "Transfer-Ausnahme",
+          "sequence": ["1SA", "2♥", "3♠"],
+          "meaning": "Der Eröffner springt bei der Ausführung des Pik-Transfers auf 3♠.",
+          "conditions": ["Vier Trümpfe", "Maximum"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Ausnahme von der normalen Transferausführung."]
+        },
+        {
+          "rule_id": "FD2012-06-013",
+          "topic": "Transfer-Ausnahme nach Kontra",
+          "sequence": ["1SA", "Passe", "2♦", "X", "Passe"],
+          "meaning": "Nach Kontra des Gegners passt der Eröffner.",
+          "conditions": ["Doubleton in Cœur"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Die Quelle beschreibt dies als Ausnahme nach Kontra des Gegners."]
+        },
+        {
+          "rule_id": "FD2012-06-014",
+          "topic": "Einladendes Wiedergebot nach Transfer",
+          "sequence": ["1SA", "2♥", "2♠", "3♠"],
+          "meaning": "Einladendes Wiedergebot nach Pik-Transfer.",
+          "conditions": ["6er-Pik", "9–10 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-015",
+          "topic": "Einladendes Wiedergebot nach Transfer",
+          "sequence": ["1SA", "2♦", "2♥", "2SA"],
+          "meaning": "Einladendes Sans-Atout-Wiedergebot nach Cœur-Transfer.",
+          "conditions": ["5er-Cœur", "9 (8) FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-016",
+          "topic": "Quantitative Einladung nach Transfer",
+          "sequence": ["1SA", "2♥", "2♠", "4SA"],
+          "meaning": "Quantitative Einladung nach Pik-Transfer.",
+          "conditions": ["5er-Pik", "16–17 FL", "Gleichmäßige Verteilung"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Einladung zu 6SA bzw. 5♠ oder 6♠."]
+        },
+        {
+          "rule_id": "FD2012-06-017",
+          "topic": "Forcierendes Wiedergebot nach Transfer",
+          "sequence": ["1SA", "2♦", "2♥", "3♣"],
+          "meaning": "Forcierendes Wiedergebot mit neuer Unterfarbe auf der 3er-Stufe.",
+          "conditions": ["Ab 10 FL", "Mindestens 5er-Cœur", "Mindestens 4er-Treff"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-018",
+          "topic": "Forcierendes Wiedergebot nach Transfer",
+          "sequence": ["1SA", "2♦", "2♥", "4♦"],
+          "meaning": "Forcierendes Wiedergebot mit neuer Unterfarbe auf der 4er-Stufe.",
+          "conditions": ["Mindestens 5-5"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Starkes Schlemminteresse."]
+        },
+        {
+          "rule_id": "FD2012-06-019",
+          "topic": "5-5-Oberfarb-Zweifärber",
+          "sequence": ["1SA", "2♥", "2♠", "Passe"],
+          "meaning": "Wiedergebot bei schwachem 5-5-Oberfarb-Zweifärber.",
+          "conditions": ["0–8 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Abschluss."]
+        },
+        {
+          "rule_id": "FD2012-06-020",
+          "topic": "5-5-Oberfarb-Zweifärber",
+          "sequence": ["1SA", "2♦", "2♥", "2♠"],
+          "meaning": "Wiedergebot bei 5-5-Oberfarb-Zweifärber.",
+          "conditions": ["9–10 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Einladend."]
+        },
+        {
+          "rule_id": "FD2012-06-021",
+          "topic": "5-5-Oberfarb-Zweifärber",
+          "sequence": ["1SA", "4♦"],
+          "meaning": "Sondergebot bei 5-5 in den Oberfarben.",
+          "conditions": ["11–13 FV"],
+          "conventions": [],
+          "continuations": ["Der Eröffner darf nur 4♥ oder 4♠ bieten."],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-022",
+          "topic": "5-5-Oberfarb-Zweifärber",
+          "sequence": ["1SA", "2♥", "2♠", "4♥"],
+          "meaning": "Wiedergebot bei 5-5-Oberfarb-Zweifärber.",
+          "conditions": ["14–16 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Die Quelle nennt die Gebotsfolge, erläutert sie aber nicht weiter."]
+        },
+        {
+          "rule_id": "FD2012-06-023",
+          "topic": "5-5-Oberfarb-Zweifärber",
+          "sequence": ["1SA", "2♥", "2♠", "3♥"],
+          "meaning": "Wiedergebot bei 5-5-Oberfarb-Zweifärber.",
+          "conditions": ["Ab guten 16 FV"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.2",
+          "status": "belegt",
+          "notes": ["Die Quelle nennt die Gebotsfolge, erläutert sie aber nicht weiter."]
+        },
+        {
+          "rule_id": "FD2012-06-024",
+          "topic": "Natürliche SA-Antwort",
+          "sequence": ["1SA", "2SA"],
+          "meaning": "Natürliche Antwort in Sans-Atout.",
+          "conditions": ["9 (8) FL", "Keine 4er-Oberfarbe"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.3",
+          "status": "belegt",
+          "notes": ["Einladend."]
+        },
+        {
+          "rule_id": "FD2012-06-025",
+          "topic": "Natürliche SA-Antwort",
+          "sequence": ["1SA", "3SA"],
+          "meaning": "Natürliche Antwort in Sans-Atout.",
+          "conditions": ["10–15 FL", "Keine 4er-Oberfarbe"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.3",
+          "status": "belegt",
+          "notes": ["Abschluss."]
+        },
+        {
+          "rule_id": "FD2012-06-026",
+          "topic": "Natürliche SA-Antwort",
+          "sequence": ["1SA", "4SA"],
+          "meaning": "Quantitative Einladung zu 6SA.",
+          "conditions": ["16–17 FL", "Keine 4er-Oberfarbe"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-06-027",
+          "topic": "Sprungantwort mit Einfärber",
+          "sequence": ["1SA", "3♣"],
+          "meaning": "Sprungantwort mit Einfärber und Schlemminteresse.",
+          "conditions": ["Gute 6er-Farbe", "Ab 15 FL"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 6.3",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-07",
+      "source_section": "7",
+      "title": "Antworten auf 2-SA-Eröffnung",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-07-01",
+          "topic": "Stayman nach 2SA",
+          "sequence": ["2SA", "3♣"],
+          "meaning": "Stayman.",
+          "conditions": ["Ab 5 FL"],
+          "conventions": ["Vollspielforcierend"],
+          "continuations": ["Antworten des Eröffners analog zu Stayman nach 1SA."],
+          "source_reference": "PDF Abschnitt 7",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-07-02",
+          "topic": "Oberfarb-Transfer nach 2SA",
+          "sequence": ["2SA", "3♦"],
+          "meaning": "Oberfarb-Transfer auf Cœur.",
+          "conditions": ["Mindestens 5er-Cœur", "Ab null Punkten möglich"],
+          "conventions": ["Oberfarb-Transfer"],
+          "continuations": ["Analog zur Weiterreizung nach 1SA."],
+          "source_reference": "PDF Abschnitt 7",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-07-03",
+          "topic": "Oberfarb-Transfer nach 2SA",
+          "sequence": ["2SA", "3♥"],
+          "meaning": "Oberfarb-Transfer auf Pik.",
+          "conditions": ["Mindestens 5er-Pik", "Ab null Punkten möglich"],
+          "conventions": ["Oberfarb-Transfer"],
+          "continuations": ["Analog zur Weiterreizung nach 1SA."],
+          "source_reference": "PDF Abschnitt 7",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-07-04",
+          "topic": "5-5-Oberfarb-Zweifärber",
+          "sequence": ["2SA", "4♦"],
+          "meaning": "Zeigt 5-5 in den Oberfarben.",
+          "conditions": ["Kein Schlemminteresse"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 7",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-07-05",
+          "topic": "Quantitative Einladung",
+          "sequence": ["2SA", "4SA"],
+          "meaning": "Quantitative Einladung.",
+          "conditions": ["12 FL"],
+          "conventions": ["Quantitative Einladung"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 7",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-08",
+      "source_section": "8",
+      "title": "Reizung nach 2♣-Eröffnung",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-08-01",
+          "topic": "Pflicht-Relay",
+          "sequence": ["2♣", "2♦"],
+          "meaning": "Pflicht-Relay.",
+          "conditions": [],
+          "conventions": ["Pflicht-Relay"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-02",
+          "topic": "Oberfarb-Einfärber",
+          "sequence": ["2♣", "2♦", "2♥/2♠"],
+          "meaning": "Guter Oberfarb-Einfärber.",
+          "conditions": [
+            "20–23 FL beziehungsweise 8 bis 8,5 Spielstiche",
+            "Alternativ 22–23 FL mit sehr guter 5er-Oberfarbe",
+            "Eine 4er-Unterfarbe als Nebenfarbe ist möglich"
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-03",
+          "topic": "Unterfarb-Einfärber",
+          "sequence": ["2♣", "2♦", "3♣/3♦"],
+          "meaning": "Guter Unterfarb-Einfärber.",
+          "conditions": ["8,5 bis 9,5 Spielstiche", "Meist 7er-Länge"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-04",
+          "topic": "Gleichmäßige Verteilung",
+          "sequence": ["2♣", "2♦", "2SA"],
+          "meaning": "Gleichmäßige Verteilung.",
+          "conditions": ["22–23 FL", "Keine sehr gute 5er-Oberfarbe"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-05",
+          "topic": "Oberfarb-Zweifärber",
+          "sequence": ["2♣", "2♦", "3SA"],
+          "meaning": "Sehr guter Oberfarb-Zweifärber.",
+          "conditions": ["18–21 F", "5-5-Verteilung", "3–4 Verlierer"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-06",
+          "topic": "Einfache Oberfarb-Hebung",
+          "sequence": ["2♣", "2♦", "2♥/2♠", "3♥/3♠"],
+          "meaning": "Einfache Hebung der Oberfarbe.",
+          "conditions": ["Ab 10 FV", "Mindestens 3er-Fit", "Schlemminteresse"],
+          "conventions": ["Vollspielforcierend"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-07",
+          "topic": "Oberfarb-Vollspiel",
+          "sequence": ["2♣", "2♦", "2♥/2♠", "4♥/4♠"],
+          "meaning": "Hebung ins Oberfarb-Vollspiel.",
+          "conditions": ["5–10 FV", "Mindestens 3er-Fit"],
+          "conventions": ["Abschluss"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-08",
+          "topic": "Neue Farbe auf der 2er-Stufe",
+          "sequence": ["2♣", "2♦", "2♥", "2♠"],
+          "meaning": "Neue Farbe auf der 2er-Stufe.",
+          "conditions": ["Ab 4 FL", "Mindestens 5er-Länge"],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-09",
+          "topic": "Neue Farbe auf der 3er-Stufe",
+          "sequence": ["2♣", "2♦", "2♥", "3♦"],
+          "meaning": "Neue Farbe auf der 3er-Stufe.",
+          "conditions": ["Ab 9 FL", "Annehmbare 5er-Farbe"],
+          "conventions": ["Vollspielforcierend"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-10",
+          "topic": "Sans-Atout-Abschluss",
+          "sequence": ["2♣", "2♦", "2♠", "3SA"],
+          "meaning": "Sans-Atout-Abschluss.",
+          "conditions": ["9–10 FL", "Double in Partnerfarbe", "Gleichmäßige Verteilung"],
+          "conventions": ["Abschluss"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-11",
+          "topic": "Sans-Atout-Wiedergebot",
+          "sequence": ["2♣", "2♦", "2♥", "2SA"],
+          "meaning": "Sans-Atout-Wiedergebot.",
+          "conditions": ["Ab 4 FL", "Eventuell ungleichmäßige Verteilung"],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-12",
+          "topic": "Neue Farbe nach Unterfarb-Einfärber",
+          "sequence": ["2♣", "2♦", "3♣", "3♥"],
+          "meaning": "Neue Farbe zeigt einen Stopper in der gereizten Farbe.",
+          "conditions": ["Stopper in der gereizten Farbe"],
+          "conventions": [],
+          "continuations": ["Mögliche Vorbereitung auf 3SA."],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-13",
+          "topic": "Hebung der Unterfarbe",
+          "sequence": ["2♣", "2♦", "3♦", "4♦"],
+          "meaning": "Hebung der Unterfarbe.",
+          "conditions": ["Fit", "Schlemminteresse"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-14",
+          "topic": "Unterfarb-Vollspiel",
+          "sequence": ["2♣", "2♦", "3♣", "5♣"],
+          "meaning": "Hebung ins Vollspiel.",
+          "conditions": [],
+          "conventions": ["Abschluss"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-15",
+          "topic": "Weiterreizung nach 2SA-Wiedergebot",
+          "sequence": ["2♣", "2♦", "2SA"],
+          "meaning": "Weiterreizung analog zur Weiterreizung nach 2SA-Eröffnung.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": ["Stayman ab 3 FL", "Oberfarb-Transfers"],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-16",
+          "topic": "Abschluss nach 3SA-Wiedergebot",
+          "sequence": ["2♣", "2♦", "3SA", "4♥/4♠"],
+          "meaning": "Abschlussgebot.",
+          "conditions": [],
+          "conventions": ["Abschluss"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-08-17",
+          "topic": "Kontrollgebot nach 3SA-Wiedergebot",
+          "sequence": ["2♣", "2♦", "3SA", "4♣/4♦"],
+          "meaning": "Kontrollgebot.",
+          "conditions": ["Fit in einer Oberfarbe", "Schlemminteresse"],
+          "conventions": ["Kontrollgebot"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 8",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-09",
+      "source_section": "9",
+      "title": "Reizung nach 2♦-Eröffnung",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-09-01",
+          "topic": "Relay nach 2♦-Eröffnung",
+          "sequence": ["2♦", "2♥"],
+          "meaning": "Relay, meist negativ.",
+          "conditions": [],
+          "conventions": ["Bis zum Vollspiel forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-09-02",
+          "topic": "Positive Antwort mit neuer Farbe",
+          "sequence": ["2♦", "3♣"],
+          "meaning": "Positive Antwort mit neuer Farbe.",
+          "conditions": [
+            "Mindestens 5er-Länge",
+            "Ab 8 F",
+            "Mindestens 3 F in der gereizten Farbe"
+          ],
+          "conventions": ["Bis mindestens 4SA forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-09-03",
+          "topic": "Gleichmäßige Verteilung",
+          "sequence": ["2♦", "2SA"],
+          "meaning": "Gleichmäßige Verteilung.",
+          "conditions": ["Ab 8 F"],
+          "conventions": ["Positive Antwort"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-09-04",
+          "topic": "Positive Antworten ab 2♠",
+          "sequence": [],
+          "meaning": "Positive Antworten ab 2♠.",
+          "conditions": [],
+          "conventions": ["Bis mindestens 4SA forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": ["Die Quelle beschreibt eine Gruppe positiver Antworten und keine einzelne Gebotsfolge."]
+        },
+        {
+          "rule_id": "FD2012-09-05",
+          "topic": "Natürliche Folgereizung",
+          "sequence": [],
+          "meaning": "Die Folgereizung nach 2♦-Eröffnung ist grundsätzlich natürlich.",
+          "conditions": ["Die erste neue Farbe verspricht mindestens 5 Karten."],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": ["Allgemeine Regel zur Folgereizung."]
+        },
+        {
+          "rule_id": "FD2012-09-06",
+          "topic": "Weiterreizung nach 2SA-Wiedergebot",
+          "sequence": [],
+          "meaning": "Nach dem 2SA-Wiedergebot des Eröffners werden Stayman und Oberfarb-Transfers verwendet.",
+          "conditions": [],
+          "conventions": ["Stayman", "Oberfarb-Transfer"],
+          "continuations": ["Analog zur Weiterreizung nach 2SA-Eröffnung."],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-09-07",
+          "topic": "Neue Farbe nach 2SA-Antwort",
+          "sequence": ["2♦", "2SA", "neue Farbe"],
+          "meaning": "Neue Farbe.",
+          "conditions": ["Mindestens 5er-Länge"],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-09-08",
+          "topic": "Sans-Atout-Wiedergebot",
+          "sequence": ["2♦", "2SA", "3SA"],
+          "meaning": "Gleichmäßige Verteilung.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-09-09",
+          "topic": "Stayman nach 3SA-Wiedergebot",
+          "sequence": ["2♦", "2SA", "3SA", "4♣"],
+          "meaning": "Stayman.",
+          "conditions": [],
+          "conventions": ["Stayman"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 9",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-10",
+      "source_section": "10",
+      "title": "Reizung nach 2♥/2♠-Eröffnung",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-10-01",
+          "topic": "Einfache Hebung nach schwacher Zweier-Eröffnung",
+          "sequence": [],
+          "meaning": "Einfache Hebung der Eröffnungsfarbe.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 10",
+          "status": "belegt",
+          "notes": [
+            "Gebotsfolgen: 2♥ – 3♥ und 2♠ – 3♠.",
+            "Zweck: Verlängerung der Sperre."
+          ]
+        },
+        {
+          "rule_id": "FD2012-10-02",
+          "topic": "Hebung ins Vollspiel nach schwacher Zweier-Eröffnung",
+          "sequence": [],
+          "meaning": "Hebung ins Vollspiel.",
+          "conditions": [],
+          "conventions": ["Abschluss"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 10",
+          "status": "belegt",
+          "notes": [
+            "Gebotsfolgen: 2♥ – 4♥ und 2♠ – 4♠.",
+            "Entweder starke Hand zum Erfüllen des Kontrakts oder schwache Hand zur Verlängerung der Sperre."
+          ]
+        },
+        {
+          "rule_id": "FD2012-10-03",
+          "topic": "Konventionelle 2SA-Antwort mit Fit",
+          "sequence": ["2♠", "2SA"],
+          "meaning": "Konventionelle Antwort, die Fit zeigt.",
+          "conditions": [],
+          "conventions": ["Konventionelle Fit-Antwort"],
+          "continuations": [
+            "2♠ – 2SA – 3♠: Minimum des Eröffners.",
+            "2♠ – 2SA – 4♠: Maximum des Eröffners."
+          ],
+          "source_reference": "PDF Abschnitt 10",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-10-04",
+          "topic": "Neue Farbe nach schwacher Zweier-Eröffnung",
+          "sequence": [],
+          "meaning": "Neue Farbe zeigt eine lange Farbe, normalerweise ohne Fit.",
+          "conditions": [],
+          "conventions": ["Forcing"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 10",
+          "status": "belegt",
+          "notes": ["Gilt nach 2♥- oder 2♠-Eröffnung."]
+        },
+        {
+          "rule_id": "FD2012-10-05",
+          "topic": "Sans-Atout-Vollspiel nach schwacher Zweier-Eröffnung",
+          "sequence": [],
+          "meaning": "3SA ist ein Abschlussgebot.",
+          "conditions": [],
+          "conventions": ["Abschluss"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 10",
+          "status": "belegt",
+          "notes": ["Gilt nach 2♥- oder 2♠-Eröffnung."]
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-11",
+      "source_section": "11",
+      "title": "Schlemmkonventionen",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-11-01",
+          "topic": "Kontrollgebote",
+          "sequence": [],
+          "meaning": "Kontrollgebote zeigen Erst- oder Zweitrundenkontrolle in der gereizten Farbe.",
+          "conditions": [],
+          "conventions": ["Kontrollgebot"],
+          "continuations": [
+            "Ein erstes Kontrollgebot oberhalb von 4SA zeigt normalerweise Erstrundenkontrolle."
+          ],
+          "source_reference": "PDF Abschnitt 11.1",
+          "status": "belegt",
+          "notes": [
+            "Beispiel: 1♠ – 2♦ – 2♥ – 3♠: Kontrollgebot mit Fitbestätigung.",
+            "Beispiel: 1SA – 2♣ – 2♠ – 4♦: Kontrollgebot.",
+            "Beispiel: 1SA – 2♣ – 2♠ – 4♣: Kontrollgebot."
+          ]
+        },
+        {
+          "rule_id": "FD2012-11-02",
+          "topic": "Roman Key Card Blackwood",
+          "sequence": ["4SA nach gefundenem Fit"],
+          "meaning": "Frage nach der Anzahl der Key Cards.",
+          "conditions": ["Ein Fit wurde gefunden."],
+          "conventions": ["Roman Key Card Blackwood"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 11.2",
+          "status": "belegt",
+          "notes": [
+            "Die fünf Key Cards sind die vier Asse und der Trumpfkönig."
+          ]
+        },
+        {
+          "rule_id": "FD2012-11-03",
+          "topic": "Antworten auf Roman Key Card Blackwood",
+          "sequence": ["Antworten auf 4SA"],
+          "meaning": "Die Antwort zeigt die Anzahl der Key Cards und bei zwei Key Cards zusätzlich, ob die Trumpfdame vorhanden ist.",
+          "conditions": [],
+          "conventions": ["Roman Key Card Blackwood"],
+          "continuations": [
+            "5♣: 0 oder 3 Key Cards.",
+            "5♦: 1 oder 4 Key Cards.",
+            "5♥: 2 Key Cards ohne Trumpfdame.",
+            "5♠: 2 Key Cards mit Trumpfdame."
+          ],
+          "source_reference": "PDF Abschnitt 11.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-11-04",
+          "topic": "Frage nach der Trumpfdame",
+          "sequence": [],
+          "meaning": "Nach den Antworten 5♣ und 5♦ kann rollend nach der Trumpfdame gefragt werden.",
+          "conditions": [],
+          "conventions": ["Frage nach der Trumpfdame"],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 11.2",
+          "status": "belegt",
+          "notes": [
+            "5 in der Trumpffarbe ist ein Abschlussgebot."
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-12",
+      "source_section": "12",
+      "title": "Wettbewerbsreizung",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-12-01",
+          "topic": "Antwort mit Fit nach Farbgegenreizung",
+          "sequence": [],
+          "meaning": "Mit Fit wird bis 14 FV grundsätzlich wie bei ungestörter Reizung geboten.",
+          "conditions": [
+            "Partner hat eine Farbe eröffnet.",
+            "Der Gegner hat eine Farbgegenreizung abgegeben.",
+            "Fit beim Antwortenden."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "PDF Abschnitt 12.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-12-02",
+          "topic": "Farbwechsel nach Farbgegenreizung",
+          "sequence": [],
+          "meaning": "Die Anforderungen an Farbwechsel richten sich nach der Gebotsstufe.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [
+            "1er-Stufe: 4er-Farbe, ab 7 FL.",
+            "2er-Stufe: möglichst 5er-Farbe, ab 11 FL.",
+            "3er-Stufe: 5er-Farbe, ab 13 FL."
+          ],
+          "source_reference": "PDF Abschnitt 12.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-12-03",
+          "topic": "Sans-Atout nach Farbgegenreizung",
+          "sequence": [],
+          "meaning": "Sans-Atout-Gebote zeigen je nach Stufe unterschiedliche Stärke und einen Halt in der Gegnerfarbe.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [
+            "1SA: 7–10 FL, Halt in Gegnerfarbe, gleichmäßige Verteilung.",
+            "2SA: 11–12 FL, guter Halt in Gegnerfarbe, gleichmäßige Verteilung.",
+            "3SA: 13–15 FL, guter Halt in Gegnerfarbe, gleichmäßige Verteilung."
+          ],
+          "source_reference": "PDF Abschnitt 12.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-12-04",
+          "topic": "Negativkontra",
+          "sequence": [],
+          "meaning": "Negativkontra ist bis 4♦/4♥ möglich, soweit noch ein Fit in einer ungereizten Oberfarbe bis maximal Vollspielhöhe gefunden werden kann.",
+          "conditions": [
+            "Mindeststärke auf der 1er-Stufe: ab 7 FL.",
+            "Mindeststärke auf der 2er-Stufe bis 2♥: ab 8 FL.",
+            "Mindeststärke von 2♠ bis 3♥: ab 10 (9) FL.",
+            "Mindeststärke von 3♠ bis 4♥: ab 12 (11) FL."
+          ],
+          "conventions": ["Negativkontra"],
+          "continuations": [
+            "Bei ausreichender Stärke hat das Bieten einer 5er-Farbe Vorrang vor Negativkontra."
+          ],
+          "source_reference": "PDF Abschnitt 12.1",
+          "status": "belegt",
+          "notes": [
+            "Beispiel: 1♣ – 1♦ – X: beide Oberfarben zu viert.",
+            "Beispiel: 1♣ – 1♦ – 1♠: mindestens 4er-Pik.",
+            "Beispiel: 1♣ – 1♥ – X: genau 4er-Pik.",
+            "Beispiel: 1♣ – 1♥ – 1♠: mindestens 5er-Pik.",
+            "Beispiel: 1♣ – 1♠ – X: 4er-Cœur ab 7 FL oder 5er-Cœur mit 7–10 FL."
+          ]
+        },
+        {
+          "rule_id": "FD2012-12-05",
+          "topic": "Überruf der Gegnerfarbe",
+          "sequence": [],
+          "meaning": "Der Überruf der Gegnerfarbe ist nach einer Unterfarberöffnung vollspielforcierend und erfolgt meist mit Fit. Nach einer Oberfarberöffnung ist er ebenfalls vollspielforcierend und zeigt guten Fit.",
+          "conditions": [
+            "Nach Partners Unterfarberöffnung: meist mit Fit.",
+            "Nach Partners Oberfarberöffnung: guter Fit."
+          ],
+          "conventions": ["Überruf der Gegnerfarbe", "Vollspielforcing"],
+          "continuations": [
+            "Nach Partners Unterfarberöffnung soll der Eröffner mit Halt in der Gegnerfarbe vorzugsweise Sans Atout bieten."
+          ],
+          "source_reference": "PDF Abschnitt 12.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-12-06",
+          "topic": "Passe nach Farbgegenreizung und Wiederbelebung",
+          "sequence": [],
+          "meaning": "Nach Passe des Antwortenden kann der Eröffner die Reizung wiederbeleben.",
+          "conditions": ["Passe bis 6 FL."],
+          "conventions": [],
+          "continuations": [
+            "Wiederholung der Eröffnungsfarbe zeigt eine gute 6er-Farbe.",
+            "Eine neue Farbe zeigt einen Zweifärber.",
+            "Kontra zeigt ein Informationskontra mit Kürze in der Gegnerfarbe."
+          ],
+          "source_reference": "PDF Abschnitt 12.1",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-12-07",
+          "topic": "Antworten nach Informationskontra",
+          "sequence": [],
+          "meaning": "Antworten auf ein gegnerisches Informationskontra.",
+          "conditions": ["Partner hat eine Farbe eröffnet.", "Der Gegner hat Informationskontra gegeben."],
+          "conventions": [],
+          "continuations": [
+            "Farbwechsel auf der 1er-Stufe: 4er-Farbe, ab 7 FL, forcing.",
+            "1SA: 7–10 FL, gleichmäßige Verteilung.",
+            "Farbwechsel auf der 2er-Stufe, auch im Sprung: 6–9 (10) F, gute 6er-Farbe, nicht forcing.",
+            "Rekontra: ab 10 F."
+          ],
+          "source_reference": "PDF Abschnitt 12.2",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-12-08",
+          "topic": "Antworten nach 1-SA-Gegenreizung",
+          "sequence": [],
+          "meaning": "Antworten auf die 1-SA-Gegenreizung des Partners.",
+          "conditions": ["Der Gegner hat eine Farbe eröffnet.", "Partner hat 1SA geboten."],
+          "conventions": [],
+          "continuations": [
+            "Kontra: ab 9 F.",
+            "Neue Farbe: 5–8 F, 6er-Farbe oder sehr gute 5er-Farbe."
+          ],
+          "source_reference": "PDF Abschnitt 12.3",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-12-09",
+          "topic": "Oberfarb-Transfers und konventionelle Gebote nach Gegenreizung auf 1SA",
+          "sequence": [],
+          "meaning": "Auch nach einer Gegenreizung auf 1SA werden Oberfarb-Transfers gespielt. Belegt die gegnerische Reizung ein konventionelles Gebot, wird dieses durch Kontra ersetzt.",
+          "conditions": [],
+          "conventions": ["Oberfarb-Transfer", "Stayman"],
+          "continuations": [
+            "1SA – 2♦ – 2♥: Transfer auf Pik.",
+            "1SA – 2♣ – X: Stayman.",
+            "1SA – 2♦ – X: Transfer auf Cœur.",
+            "1SA – 2♥ – X: Transfer auf Pik.",
+            "1SA – 2♠ – X: Strafkontra."
+          ],
+          "source_reference": "PDF Abschnitt 12.4",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-12-10",
+          "topic": "Neue Farbe nach Gegenreizung auf 1SA",
+          "sequence": [],
+          "meaning": "Neue Farben auf der 3er-Stufe unterscheiden sich nach Gebot ohne Sprung und Gebot im Sprung.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [
+            "Ohne Sprung: mindestens 5er-Farbe, ab 10 FL, vollspielforcierend.",
+            "Im Sprung: 6er-Farbe mit Schlemminteresse; Weiterreizung wie bei ungestörter Reizung."
+          ],
+          "source_reference": "PDF Abschnitt 12.4",
+          "status": "belegt",
+          "notes": [
+            "Beispiel: 1SA – 2♠ – 3♥: neue Farbe ohne Sprung auf der 3er-Stufe."
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-13",
+      "section_number": 13,
+      "title": "Farbgegenreizungen",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-13-01",
+          "topic": "Farbgegenreizung auf der Einerstufe",
+          "sequence": ["1♦", "1♠"],
+          "meaning": "Die 1-über-1-Farbgegenreizung zeigt 9–18 FL und mindestens eine gute 5er-Farbe. Ab 13 FL darf die Farbe auch schwächer sein.",
+          "conditions": [
+            "Gegner hat auf der Einerstufe in Farbe eröffnet."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 13.1, PDF-Seite 11",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-13-02",
+          "topic": "Antworten mit Fit nach Farbgegenreizung auf Einerstufe",
+          "sequence": [],
+          "meaning": "Die Antworten mit Fit richten sich nach Länge des Fits und Stärke.",
+          "conditions": [
+            "Partner hat auf der Einerstufe eine Farbgegenreizung abgegeben."
+          ],
+          "conventions": [],
+          "continuations": [
+            "Hebung auf 2er-Stufe: 3er-Fit, 6–10 FV, eventuell 11 FV.",
+            "Alternative zur Hebung auf 2er-Stufe: 4er-Fit mit 6–10 FV bei sehr gleichmäßiger Verteilung.",
+            "Hebung auf 3er-Stufe: 4er-Fit, 8–12 FV, tendenziell ungleichmäßig.",
+            "Hebung auf 4er-Stufe: 5er-Fit, 8–14 FV, tendenziell ungleichmäßig.",
+            "Überruf der gegnerischen Eröffnungsfarbe: zu stark für direkte Hebung; mit 3er-Fit ab 11–12 FV."
+          ],
+          "source_reference": "Abschnitt 13.1, PDF-Seite 11",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-13-03",
+          "topic": "Antworten ohne Fit nach Farbgegenreizung auf Einerstufe",
+          "sequence": [],
+          "meaning": "Antwortmöglichkeiten ohne Fit nach einer Farbgegenreizung auf der Einerstufe.",
+          "conditions": [
+            "Partner hat auf der Einerstufe eine Farbgegenreizung abgegeben.",
+            "Es besteht kein Fit."
+          ],
+          "conventions": [],
+          "continuations": [
+            "1 SA: 8–12 F, Stopper in der Gegnerfarbe.",
+            "2 SA: 13–14 F, Stopper in der Gegnerfarbe.",
+            "3 SA: ab 15 F, Stopper in der Gegnerfarbe.",
+            "Neue Farbe auf der 1er-Stufe: 5er-Länge, ab 8 F, forcing.",
+            "Neue Farbe auf der 2er-Stufe: 6er-Länge, 8–12 F, nonforcing.",
+            "Überruf: ab 11 F, wenn kein anderes Gebot passt."
+          ],
+          "source_reference": "Abschnitt 13.1, PDF-Seite 11",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-13-04",
+          "topic": "Farbgegenreizung auf Zweierstufe in Unterfarbe ohne Sprung",
+          "sequence": ["1♠", "2♦"],
+          "meaning": "Die Gegenreizung zeigt entweder 11–14 FL mit guter 6er-Farbe oder 15–18 FL mit 6er-Farbe beziehungsweise guter 5er-Farbe. Hauptziel der Antworten ist 3 SA, eventuell ein Oberfarb-Vollspiel.",
+          "conditions": [
+            "11–14 FL mit guter 6er-Farbe oder 15–18 FL mit 6er-Farbe beziehungsweise guter 5er-Farbe."
+          ],
+          "conventions": [],
+          "continuations": [
+            "Hebung auf 3er-Stufe: 3er- oder 2er-Fit, 8 FV bis 10 F.",
+            "2 in neuer Farbe: ab 8 F, mindestens 5er-Länge, forcing.",
+            "2 SA: ungefähr 10–11 F, Stopper in der Gegnerfarbe.",
+            "3 SA: ab 12 F, Stopper in der Gegnerfarbe.",
+            "Überruf: ab 11 F; fragt nach Stärke, Stopper und zweiter Farbe. Ziel ist 3 SA oder ein 4-4-Fit in einer Oberfarbe."
+          ],
+          "source_reference": "Abschnitt 13.2, PDF-Seite 11",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-13-05",
+          "topic": "Farbgegenreizung auf Zweierstufe in Oberfarbe ohne Sprung",
+          "sequence": ["1♠", "2♥"],
+          "meaning": "Die Gegenreizung zeigt 11–14 FL mit guter 6er-Farbe, 15–18 FL mit 6er-Farbe oder 13–18 FL mit guter 5er-Farbe.",
+          "conditions": [
+            "11–14 FL mit guter 6er-Farbe.",
+            "15–18 FL mit 6er-Farbe.",
+            "13–18 FL mit guter 5er-Farbe."
+          ],
+          "conventions": [],
+          "continuations": [
+            "Hebung auf 3er-Stufe: 3er-Fit, 7–10 FV.",
+            "Hebung auf 4er-Stufe: 3er-Fit ab 13 FV oder 4er-/5er-Fit bei sehr ungleichmäßiger Verteilung.",
+            "Überruf mit Fit: 3er-Fit, ab 11 FV.",
+            "2 SA: ungefähr 10–11 F, Stopper in der Gegnerfarbe.",
+            "3 SA: ab guten 12 F, Stopper in der Gegnerfarbe.",
+            "3 in neuer Farbe: gute 5er-Farbe, ab 12 F, forcing.",
+            "Überruf ohne Fit: ab 11 F, wenn kein anderes Gebot passt."
+          ],
+          "source_reference": "Abschnitt 13.3, PDF-Seite 11",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-13-06",
+          "topic": "Farbgegenreizung im Sprung",
+          "sequence": [],
+          "meaning": "Eine Farbgegenreizung im Sprung auf die 2er-Stufe zeigt eine 6er-Länge mit Mittelwerten und 6–10 F. Eine Farbgegenreizung im Sprung auf die 3er-Stufe zeigt eine 7er-Länge mit Mittelwerten und 6–10 F.",
+          "conditions": [
+            "Gegner hat auf der Einerstufe in Farbe eröffnet."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 13.4, PDF-Seite 11",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-14",
+      "section_number": 14,
+      "title": "Informationskontra",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-14-01",
+          "topic": "Informationskontra",
+          "sequence": ["1♣", "X"],
+          "meaning": "Das Informationskontra zeigt 12 F bis 18 FL und hat eine Tendenz zu einer Dreifärberverteilung mit Kürze in der eröffneten Farbe.",
+          "conditions": [
+            "Gegner hat eine Farbe eröffnet.",
+            "12 F bis 18 FL."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-02",
+          "topic": "Stärkekontra",
+          "sequence": ["1♣", "X"],
+          "meaning": "Ab 19 FL ist das Kontra ein Stärkekontra und kann beliebige Verteilungen haben.",
+          "conditions": [
+            "Ab 19 FL."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-03",
+          "topic": "Antwortprinzip",
+          "sequence": ["1♥", "X", "?"],
+          "meaning": "Bei den Antworten auf das Informationskontra hat die Oberfarbe Vorrang.",
+          "conditions": [],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-04",
+          "topic": "Farbantwort ohne Sprung",
+          "sequence": [],
+          "meaning": "Eine Farbantwort ohne Sprung zeigt 0–7 F.",
+          "conditions": [
+            "0–7 F."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-05",
+          "topic": "Farbantwort bei Zwischenreizung",
+          "sequence": [],
+          "meaning": "Wenn der Partner des Eröffners zwischenreizt, wird mit 0–4 F gepasst; mit 5–7 F ist ein Gebot möglich.",
+          "conditions": [
+            "Zwischenreizung durch den Partner des Eröffners."
+          ],
+          "conventions": [],
+          "continuations": [
+            "0–4 F: passen.",
+            "5–7 F: ein Gebot ist möglich."
+          ],
+          "source_reference": "Abschnitt 14, PDF-Seite 12, Klammerzusatz",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-06",
+          "topic": "Farbantwort mit Sprung",
+          "sequence": [],
+          "meaning": "Eine Farbantwort mit Sprung zeigt 8–10 F. Mit einer 4er-Farbe wird auf die 2er-Stufe gesprungen, mit einer 5er-Farbe auf die 3er-Stufe.",
+          "conditions": [
+            "8–10 F."
+          ],
+          "conventions": [],
+          "continuations": [
+            "4er-Farbe: Sprung auf die 2er-Stufe.",
+            "5er-Farbe: Sprung auf die 3er-Stufe."
+          ],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-07",
+          "topic": "Sprung in Oberfarben-Vollspiel",
+          "sequence": [],
+          "meaning": "Ab 11 F wird mit einer 5er-Oberfarbe in 4♥ oder 4♠ gesprungen.",
+          "conditions": [
+            "Ab 11 F.",
+            "5er-Oberfarbe."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-08",
+          "topic": "Antwort 1 SA",
+          "sequence": ["1SA"],
+          "meaning": "1 SA zeigt einen Stopper in der Gegnerfarbe und keine freie 4er-Oberfarbe.",
+          "conditions": [
+            "Stopper in der Gegnerfarbe.",
+            "Keine freie 4er-Oberfarbe."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-09",
+          "topic": "Antwort 2 SA",
+          "sequence": ["2SA"],
+          "meaning": "2 SA zeigt 11–12 F und 1,5 Stopper in der Gegnerfarbe.",
+          "conditions": [
+            "11–12 F.",
+            "1,5 Stopper in der Gegnerfarbe."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-10",
+          "topic": "Antwort 3 SA",
+          "sequence": ["3SA"],
+          "meaning": "3 SA zeigt ab 13 F und 1,5 Stopper in der Gegnerfarbe.",
+          "conditions": [
+            "Ab 13 F.",
+            "1,5 Stopper in der Gegnerfarbe."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-11",
+          "topic": "Überruf nach Unterfarberöffnung",
+          "sequence": [],
+          "meaning": "Der Überruf nach einer Unterfarberöffnung von 1♣ oder 1♦ zeigt eine 4-4-Verteilung in den Oberfarben.",
+          "conditions": [
+            "Eröffnung 1♣ oder 1♦.",
+            "4-4-Verteilung in den Oberfarben."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-14-12",
+          "topic": "Überruf als Ausweichgebot",
+          "sequence": [],
+          "meaning": "Ein Überruf ist möglich, wenn kein natürliches Gebot passend ist. Ziel ist 3 SA oder ein 4-4-Fit in einer Oberfarbe, notfalls auch ein 4-3-Fit.",
+          "conditions": [
+            "Kein natürliches Gebot passt."
+          ],
+          "conventions": [],
+          "continuations": [
+            "Mögliches Ziel: 3 SA.",
+            "Mögliches Ziel: 4-4-Fit in einer Oberfarbe.",
+            "Notfalls: 4-3-Fit in einer Oberfarbe."
+          ],
+          "source_reference": "Abschnitt 14, PDF-Seite 12",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "section_id": "FD2012-15",
+      "section_number": 15,
+      "title": "1-SA-Gegenreizung",
+      "status": "abgeglichen",
+      "rules": [
+        {
+          "rule_id": "FD2012-15-01",
+          "topic": "Voraussetzungen der 1-SA-Gegenreizung",
+          "sequence": ["1♦", "1SA"],
+          "meaning": "Die 1-SA-Gegenreizung entspricht den Voraussetzungen einer eigenen 1-SA-Eröffnung.",
+          "conditions": [
+            "15–17(18) FL.",
+            "Gleichmäßige Verteilung.",
+            "Stopper in der Gegnerfarbe."
+          ],
+          "conventions": [],
+          "continuations": [],
+          "source_reference": "Abschnitt 15, PDF-Seite 13",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-15-02",
+          "topic": "Antworten auf die 1-SA-Gegenreizung",
+          "sequence": [],
+          "meaning": "Die Antworten entsprechen denen nach einer eigenen 1-SA-Eröffnung.",
+          "conditions": [],
+          "conventions": [
+            "Stayman.",
+            "Oberfarben-Transfers."
+          ],
+          "continuations": [],
+          "source_reference": "Abschnitt 15, PDF-Seite 13",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-15-03",
+          "topic": "Stayman nach gegnerischer Zwischenreizung",
+          "sequence": ["1♣", "1SA", "2♣", "X"],
+          "meaning": "Das Kontra ersetzt Stayman.",
+          "conditions": [
+            "Eigene 1-SA-Gegenreizung.",
+            "Zwischenreizung 2♣ durch den Partner des Eröffners."
+          ],
+          "conventions": [
+            "Kontra ersetzt Stayman."
+          ],
+          "continuations": [],
+          "source_reference": "Abschnitt 15, PDF-Seite 13",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-15-04",
+          "topic": "Oberfarben-Transfer nach gegnerischer Zwischenreizung",
+          "sequence": ["1♦", "1SA", "2♦", "2♥"],
+          "meaning": "2♥ ist ein Transfer auf Pik.",
+          "conditions": [
+            "Eigene 1-SA-Gegenreizung.",
+            "Zwischenreizung 2♦ durch den Partner des Eröffners."
+          ],
+          "conventions": [
+            "2♥ ist Transfer auf Pik."
+          ],
+          "continuations": [],
+          "source_reference": "Abschnitt 15, PDF-Seite 13",
+          "status": "belegt",
+          "notes": []
+        },
+        {
+          "rule_id": "FD2012-15-05",
+          "topic": "Antwortsystem nach Zwischenreizung",
+          "sequence": [],
+          "meaning": "Reizt der Partner des Eröffners nach der 1-SA-Gegenreizung zwischen, gelten die Regeln wie nach einer eigenen 1-SA-Eröffnung und einer Zwischenreizung des Gegners.",
+          "conditions": [
+            "Zwischenreizung durch den Partner des Eröffners."
+          ],
+          "conventions": [
+            "Die Regeln nach eigener 1-SA-Eröffnung und gegnerischer Zwischenreizung gelten entsprechend."
+          ],
+          "continuations": [
+            "Beispiel: 1♣ – 1 SA – 2♣ – X = Stayman.",
+            "Beispiel: 1♦ – 1 SA – 2♦ – 2♥ = Transfer auf Pik."
+          ],
+          "source_reference": "Abschnitt 15, PDF-Seite 13",
+          "status": "belegt",
+          "notes": []
+        }
+      ]
+    }
+
+ ]
+}
